@@ -1,7 +1,7 @@
 game:GetService("Workspace").ChildAdded:Connect(function(a)
     if a.ClassName == "Model" then
         keypress(0x20)
-        wait(0)
+        wait(1)
         keyrelease(0x20)
     end
 end)
