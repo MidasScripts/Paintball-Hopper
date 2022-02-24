@@ -41,5 +41,5 @@ namecall=hookmetamethod(game,"__namecall",function(a,b,c,d,e,...)
     end
     return namecall(a,b,c,d,e,...)
 end)
-wait(7)
+wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ImWolfTTV/Paintball-Hopper/main/Hopper"))()
