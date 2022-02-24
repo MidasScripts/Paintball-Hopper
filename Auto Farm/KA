@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ImWolfTTV/Paintball-Hopper/main/Pull/Req./Space"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MidasScripts/Paintball-Hopper/main/Pull/Req./Space"))()
 
 local target
 game.RunService.RenderStepped:Connect(function()
@@ -42,4 +42,4 @@ namecall=hookmetamethod(game,"__namecall",function(a,b,c,d,e,...)
     return namecall(a,b,c,d,e,...)
 end)
 wait(13)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ImWolfTTV/Paintball-Hopper/main/Hopper"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MidasScripts/Paintball-Hopper/main/Hopper"))()
