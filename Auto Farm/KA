@@ -41,6 +41,5 @@ namecall=hookmetamethod(game,"__namecall",function(a,b,c,d,e,...)
     end
     return namecall(a,b,c,d,e,...)
 end)
-game:GetService("StarterGui"):SetCore("SendNotification",{Title="Made By: Big Blue#9419",Text="https://discord.gg/SXP8KRmQBC",Duration=2})--plz join
 wait(15)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ImWolfTTV/Paintball-Hopper/main/Hopper"))()
